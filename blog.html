@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore travel stories, tips, and safari experiences around the world. Join Visit the World on exciting journeys!">
+  <meta name="keywords" content="travel, safari, travel blog, visit the world, africa, tourism">
+  <meta name="author" content="Visit the World">
+  <title>Travel Blog - Visit the World</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Travel Blog - Visit the World">
+  <meta property="og:description" content="Explore travel stories, tips, and safari experiences.">
+  <meta property="og:image" content="images/safari-banner.jpg">
+  <meta property="og:url" content="https://hsbag25.github.io/visittheworld-site/blog.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fdfcfb;
+      color: #333;
+    }
+    header {
+      background: url('images/safari-banner.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    .blog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .post {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .post img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .post-content {
+      padding: 1rem;
+    }
+    .post-content h3 {
+      margin-top: 0;
+    }
+    .post-content p {
+      font-size: 0.95rem;
+    }
+    .post-content a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #009688;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #f2f2f2;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Travel Blog</h1>
+    <p>Inspiring stories & safari tips from around the world</p>
+  </header>
+
+  <main class="blog-container">
+    <div class="post">
+      <img src="images/ngorongoro.jpg" alt="Ngorongoro Crater Safari">
+      <div class="post-content">
+        <h3>Top 5 Safari Spots in Tanzania</h3>
+        <p>Discover the most breathtaking wildlife destinations across Tanzania—from the Serengeti to Selous.</p>
+        <a href="posts/top-safari-tanzania.html">Read more →</a>
+      </div>
+    </div>
+
+    <div class="post">
+      <img src="images/zanzibar.jpg" alt="Zanzibar Beach">
+      <div class="post-content">
+        <h3>Exploring Zanzibar: Culture & Coast</h3>
+        <p>From Stone Town’s rich history to the serene beaches of Nungwi—explore it all!</p>
+        <a href="posts/zanzibar-guide.html">Read more →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Visit the World. All rights reserved.
+  </footer>
+</body>
+</html>
