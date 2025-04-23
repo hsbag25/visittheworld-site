@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visit the World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 1rem;
+    }
+    .banner {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+    nav {
+      background-color: #004d40;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .translate {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Visit the World</h1>
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Travel Banner" class="banner" />
+    <div class="translate" id="google_translate_element"></div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="qa.html">Q&A</a>
+    <a href="tips.html">Travel Tips</a>
+  </nav>
+
+  <div class="content">
+    <h2>Welcome to Your Ultimate Travel Guide</h2>
+    <p>Explore the most beautiful destinations around the globe. Let your journey begin here.</p>
+    <img src="https://images.unsplash.com/photo-1541417904950-b855846fe074" alt="Safari" style="width:100%; border-radius:10px; margin-top:20px;"/>
+  </div>
+
+  <footer>
+    &copy; 2025 Visit the World | Designed with adventure in mind.
+  </footer>
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
